@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+}
+body{
+    background-image: url(fin.jpg)  ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+p{
+    text-align: center;
+    font-family: monospace;
+    font-style: oblique;
+}
+#divpransip{
+    width: 100%;
+    height: 400px;
+   
+}
+.yassine {
+    width: 30%; 
+   margin: 10px 20px;
+    height: 400px;
+    background-size: cover;
+ 
+  float: left;
+
+}
+.image1{
+    background-image: url(https://q-cf.bstatic.com/images/hotel/max1024x768/172/172070682.jpg) ;
+}
+.imag2{
+    background-image: url(https://www.fergushotels.com/backoffice/images/247-pool-and-building-2.jpg);
+}
+.image3{
+    background-image: url(https://www.rwsentosa.com/-/media/project/non-gaming/rwsentosa/hotels/hotel-michael/hotel-michael-pool.jpg);
+}
+.p1{
+    -moz-text-size-adjust: 10px;
+    text-align: center;
+    text-align-last: center;
+}
+h4
+{
+    text-align:center;
+    margin-right: 390px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black;
+    background-color: blanchedalmond;
+    
+}
+#i
+{
+    
+    background-color: brown; 
+    width: 250px; 
+    height: 100px;
+}
