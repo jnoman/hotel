@@ -1,15 +1,14 @@
-body  {
+body  { 
+    
+background-image: url(fin.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 
-     background-image: url(ho.jpg) ;
-     background-repeat: no-repeat;
-    background-size: cover;
-
-}
 }
 
 
 h1 {
-  color: rgb(121, 188, 226);
+  color: white;
   text-align: center;
 }
 div {
