@@ -1,0 +1,42 @@
+body  {
+  background-color: lightblue;
+background-image: url()
+
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+div {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  #welcome  {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  background-position: center;
+  font-display: flex;
+  margin-left:450PX;
+  
+}
+
+p {
+    font-family: verdana;
+    font-style: initial;
+    font-size: 15px;
+    font-weight: 600;
+    font-display: flex;
+    background-position: center;
+  }
+  #wel {
+    font-family: fantasy;
+    font-style: initial;
+    position: -ms-page;
+    font-size: 15px;
+    font-weight: 600;
+    font-display: flex;
+    background-position: center;
+  }
