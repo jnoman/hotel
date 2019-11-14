@@ -32,7 +32,7 @@
             
         }
    
-        form{
+        #f1{
             width: 40%;
             height: 10%;
             border: 1px solid gray;
@@ -105,19 +105,20 @@
     </style>
 </head>
 <body>  
+        <form id="f" action="reservation.html">
     <div id="divA">
         
-   <h2> <a href="connection.html" >HOTEL</a> </h2>
+   <h2> <a href="accueil.html" >HOTEL</a> </h2>
         <div>
         <label>Adresse Email ou Mobile </label>
-            <input type="text"  > 
+            <input type="text"  id="username"> 
            <label>  Mote de passe  </label>
-            <input type="password" > 
-            <input type="submit" id="btn" value="Connecter" onclick="f1()">
+            <input type="password" id="password"> 
+            <input type="button" id="btn" value="Connecter" onclick="f1()">
         </div>
     </div>
-   
-        <form name="f1" action="connection.html">
+</form>
+    <form id="f1" >
             <h1>
             Inscription
 
@@ -153,7 +154,8 @@
                 
            
   
-        </form>
+        
+    </form>
         <script langage="javascript">
                 function f1()
                     {
@@ -171,9 +173,9 @@
                         var pass= document.getElementById("password").value;
                         for(var i=0;i<data.length;i++)
                         {
-                            if(usern=="1" && pass=="1")
+                            if(usern==data[i].mail && pass==data[i].password)
                             {
-                                document.location.href("file:///C:/Users/admin/Desktop/hotel/reservation.html");
+                                document.getElementById("f").submit();
                             }
                         }
                     }
