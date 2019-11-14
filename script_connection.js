@@ -12,7 +12,7 @@ req.onload = function()
         {
             if(data[i]['email']==username && data[i]['password']==password)
             {
-                window.location.href("reservation.html");
+                document.location.href("reservation.html");
             }
         }
     })
