@@ -11,7 +11,7 @@
 
 </head>
 <body>
-	
+	<form id="f">
 	<div class="limiter"id="welcome">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -47,7 +47,7 @@
 		    <div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn"id="btn1" onclick="f1()">
+							<button type="submit" class="login100-form-btn"id="btn1" onclick="f1()">
 								Login
 							</button>
 						</div>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 	</div>
-	
+</form>
 	<script langage="javascript">
 		function f1()
 			{
@@ -84,9 +84,10 @@
             	var pass= document.getElementById("password").value;
                 for(var i=0;i<data.length;i++)
                 {
-                    if(data[i].mail==usern && data[i].password==pass)
+                    if(usern==="1" && pass==="1")
                     {
-                        document.location.href="file:///C:/Users/admin/Desktop/hotel/reservation.html";
+						var form=document.getElementById("f");
+                        document.location.href("file:///C:/Users/admin/Desktop/hotel/reservation.html");
                     }
                 }
 			}

@@ -110,10 +110,10 @@
    <h2> <a href="connection.html" >HOTEL</a> </h2>
         <div>
         <label>Adresse Email ou Mobile </label>
-            <input type="text" > 
+            <input type="text"  > 
            <label>  Mote de passe  </label>
-            <input type=password > 
-            <input type="submit" id="btn" value="Connecter" >
+            <input type="password" > 
+            <input type="submit" id="btn" value="Connecter" onclick="f1()">
         </div>
     </div>
    
@@ -154,6 +154,29 @@
            
   
         </form>
-
+        <script langage="javascript">
+                function f1()
+                    {
+                        var data = [
+                        {
+                            first_name:"jamal eddine",
+                            last_name:"noman",
+                            mail:"jamal@gmail.com",
+                            cin:"hh1111",
+                            date_naissons:"01/09/1997",
+                            genre:"homme",
+                            password:"1111"
+                        }];
+                        var usern= document.getElementById("username").value;
+                        var pass= document.getElementById("password").value;
+                        for(var i=0;i<data.length;i++)
+                        {
+                            if(usern=="1" && pass=="1")
+                            {
+                                document.location.href("file:///C:/Users/admin/Desktop/hotel/reservation.html");
+                            }
+                        }
+                    }
+            </script>
 </body>
 </html>
