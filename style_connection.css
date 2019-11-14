@@ -1,7 +1,8 @@
-body  {
-  background-image: 
+body  { 
     
-background-image: url(fin.jpeg)
+background-image: url(fin.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
