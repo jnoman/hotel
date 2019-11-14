@@ -1,15 +1,23 @@
 body  {
+<<<<<<< HEAD
   background-image: url(fin.jpg)
   
  
     
 
+=======
+>>>>>>> c1c38785349125d8af592ea9907bf90cebed2d78
 
+     background-image: url(ho.jpg) ;
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
 }
 
 
 h1 {
-  color: white;
+  color: rgb(121, 188, 226);
   text-align: center;
 }
 div {
