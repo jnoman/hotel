@@ -47,7 +47,7 @@
 		    <div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn"id="btn1">
+							<button class="login100-form-btn"id="btn1" onclick="f1()">
 								Login
 							</button>
 						</div>
@@ -67,7 +67,30 @@
 		</div>
 	</div>
 	
-
+	<script langage="javascript">
+		function f1()
+			{
+				var data = [
+        		{
+					first_name:"jamal eddine",
+					last_name:"noman",
+					mail:"jamal@gmail.com",
+					cin:"hh1111",
+					date_naissons:"01/09/1997",
+					genre:"homme",
+					password:"1111"
+				}];
+				var usern= document.getElementById("username").value;
+            	var pass= document.getElementById("password").value;
+                for(var i=0;i<data.length;i++)
+                {
+                    if(data[i].mail==usern && data[i].password==pass)
+                    {
+                        document.location.href="file:///C:/Users/admin/Desktop/hotel/reservation.html";
+                    }
+                }
+			}
+	</script>
 	
 </body>
 </html>
