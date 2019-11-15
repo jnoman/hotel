@@ -23,12 +23,23 @@ btn.addEventListener("click",function()
     ];
     var usern= document.getElementById("username").value;
     var pass= document.getElementById("password").value;
+    var j=-1;
     for(var i=0;i<data.length;i++)
     {
         if(usern==data[i].mail && pass==data[i].password)
         {
-            document.cookie = data[i].first_name;
-            document.getElementById("f").submit();
+            j=i;
         }
+    }
+    if(j!=-1)
+    {
+        document.cookie = data[j].first_name;
+        document.getElementById("f").submit();
+    }
+    else
+    {
+        document.getElementById("username").value="";
+        document.getElementById("password").value="";
+        alert("wrong email or password");
     }
 })
