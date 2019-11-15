@@ -1,0 +1,124 @@
+/*HEADER*/
+*{box-sizing: border-box;}
+        #header{
+            border: 1px solid black;
+            opacity: 1.5;
+            width: 100%;
+            height: 80px;
+            background-color: gray;
+            
+            
+        }
+        .idh{
+            
+            width: 10%;
+            height: 30px;
+           
+            background-color: navajowhite;
+            float: left;
+            margin:30px; 
+            border-radius: 10px;
+        }
+        .texte1{
+            text-align: center;
+            font-family: tahoma;
+            padding: 10px;
+        }
+        .texte1:hover {
+            color: white;
+            background-color: skyblue;
+        }
+        .texte1 a{
+            font-size: 20px;
+           text-align: center;
+            font-weight: bold;
+            line-height: 10px;
+            color: brown;
+            text-decoration: none;
+            font-style: italic;
+            font-family: monospace;
+        }
+.texte1 input{
+  
+    border-radius: 10px;
+     font-size: 25px;
+   margin-top:-8px;
+    text-align: center;
+    font-weight: bold;
+     color: brown;
+     font-style: italic;
+            font-family: monospace;
+}
+
+        
+      
+        .welcome{
+            text-align: center; 
+            font-family: serif;
+            font-weight: bold;
+            color: darkblue;
+            
+        }
+/*HEADER */
+                
+        #footer{
+            border: 1px solid gray;
+            opacity: 1.5;
+            width: 100%;
+            height: 200px;
+            background-color: darkgray;
+            margin-top: 100%;
+            border:1px solid gray;
+        }
+        .ids{
+            
+            width: 25%;
+            height: 150px;
+           
+            
+            float: right;
+            margin-right:50px; 
+            
+        }
+        .text1{
+            text-align: center;
+            font-family: tahoma;
+            padding: 10px;
+        }
+       
+        .text1 a{
+            font-size: 20px;
+           text-align: center;
+            font-weight: bold;
+            line-height: 10px;
+            color: brown;
+            text-decoration: none;
+            font-style: italic;
+            font-family: monospace;
+        }
+        .ids h1{
+            text-align: center;
+            color:brown;
+            font-style: oblique;
+            font-family: fantasy;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .ids li{
+            margin-left: 10px;
+            font-style: italic;
+            color: darkblue;
+            list-style: none;
+        }
+        .welcom{
+            padding-top: 30px;
+            text-align: center; 
+            font-family: serif;
+            font-weight: bold;
+            color: darkblue;
+            
+        }
+        .adresse{
+            float: left;
+        }
+        
