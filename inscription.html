@@ -7,14 +7,14 @@
     <title>Connection</title>
     <style>
         *{box-sizing: border-box;}
-           body{
-			text-align: center;
-			background-image: url(fin.jpg);
-			background-repeat: no-repeat;
-			background-size: cover;
+                 body{
+			        text-align: center;
+			        background-image: url(fin.jpg);
+			            background-repeat: no-repeat;
+			            background-size: cover;
          
            
-        }
+                     }
         @keyframes animationfirst{
             25%  {
                 background-color: white;
@@ -28,41 +28,41 @@
             100% {
                 background-color: lightskyblue;
             }
-            
-            
         }
    
-        #f1{
-            width: 40%;
-            height: 10%;
-            border: 1px solid gray;
-            border-radius: 10px;
+                     #f1{
+                         width: 40%;
+                         height: 10%;
+                             border: 1px solid gray;
+                             border-radius: 10px;
           
-            margin-left: 30%;
-            margin-top: 10%;
-            box-shadow: -22px 4px 3px wheat;
+                              margin-left: 30%;
+                             margin-top: 10%;
+                             box-shadow: -22px 4px 3px wheat;
         
-            animation: animationfirst 5s 10;
+                             animation: animationfirst 5s infinite;
         }
-    input {
+ input {
         border-radius: 5px;
         transition: all 1.5s;
-    }
-        input:hover{
-            background-color: gray;
-            color: white;
-            font-family: tahoma;
         }
+                 input:hover{
+                             background-color: gray;
+                             color: white;
+                             font-family: tahoma;
+                            }
         button{
-            transition: all 1s;
-            background-color: blueviolet;
-        }
-        button:hover{
-            background-color: skyblue;
-        color:black;
-            font-style: oblique;
-            padding: 10px;
-        }
+                        width:200px;
+                        border-radius: 5px; color:ivory;
+                        transition: all 1s;
+                        background-color: blueviolet;
+                }
+                        button:hover{
+                                      background-color: skyblue;
+                                        color:black;
+                                     font-style: oblique;
+                                     padding: 10px;
+                 }
         #divA{
             
             width: inherit;
@@ -72,32 +72,23 @@
             
             
         }
-        #divA h2{
-            width: 10%;
-            height: 60px;
-            float: left;
+                     #divA h2{
+                                width: 10%;
+                                height: 60px;
+                                float: left;
             
            
-        }
-        h2 a{
+                             }
+                                         h2 a{
          
-             color: black;
-            font-weight: bold;
-            font-family: fantasy;
-            font-style: oblique;
-            text-decoration: none;
+                                                color: black;
+                                                font-weight: bold;
+                                                font-family: fantasy;
+                                                font-style: oblique;
+                                                text-decoration: none;
         }
-        #div div{
-            width: 10%;
-            height: 60px;
-            float: left;
-        
-        }
-        #btn{
-            background-color: cadetblue;
-            padding: 6px;
-            font-family: monospace;
-        }
+       
+      
        
     
         
@@ -106,90 +97,85 @@
 </head>
 <body>  
         <form id="f" action="afficher_reservation.html">
-    <div id="divA">
+                         <div id="divA">
         
-   <h2> <a href="accueil.html" >HOTEL</a> </h2>
-        <div>
-        <label>Adresse Email ou Mobile </label>
-            <input type="text"  id="username"> 
-           <label>  Mote de passe  </label>
-            <input type="password" id="password"> 
-            <input type="button" id="btn" value="Connecter" onclick="f1()">
-        </div>
-    </div>
-</form>
-    <form id="f1" >
-            <h1>
-            Inscription
+                                  <h2> <a href="accueil.html" >HOTEL</a> </h2>
+                                        <div>
+                                                 <label>Adresse Email ou Mobile </label>
+                                                <input type="text"  id="username"> 
+                                                <label>  Mote de passe  </label>
+                                                  <input type="password" id="password"> 
+                                                <button onclick="f1()" type="submit"  >Connecter</button>
+                                        </div>
+                        </div>
+        </form>
+<form id="f1" >
+                    <h1>
+                         Inscription
 
-            </h1>
-           <h4 style="color: darkblue;">  C’est rapide et facile.</h4>
+                    </h1>
+                    <p style="color: darkblue;">  C’est rapide et facile.</p>
    <table >
-<tr>
-    <td>  First Name :</td><td><input type="text" id="name1" placeholder="First Name" required> </td>  
-    </tr>
-    <tr>
-    <td>  Last Name :</td><td><input type="text" id="name2" placeholder="Last Name" required ></td>     
-</tr>
-      <tr> <td>Email :</td> <td>  <input type="email" id="email" placeholder="Email" required></td>
-      </tr> 
-      <tr><td>CIN :</td><td><input type="text" id="cin" placeholder="CIN" required></td></tr>
-       <tr><td>Numero Tel :</td><td><input type=tel id="number" placeholder="Numero tel"></td></tr>
-      <tr><td>Date De Naissance :</td><td><input type="date" id="date"></td></tr>
-     
-      <tr><td>Genre :</td><td><input type="radio" id="radio1" name="radio">Femme  <input type="radio" id="radio2"  name="radio">Homme  <input type="radio" id="radio3"  name="radio">Personnalisé  </td></tr>
-    <tr>
-        <td colspan="2" style="text-align: center;" >
-             <p>   En appuyant sur Inscription,<br> vous acceptez nos Conditions générales,<br>
-                 notre <em style="color: blue;">Politique d’utilisation des données et <br>notre Politique d’utilisation des cookies.</em><br> Vous recevrez peut-être des notifications
-                 par texto de notre<br> part et vous pouvez<br> à tout moment vous désabonner.</p>
-        </td></tr>
-    
-      <tr><td colspan="2" > <button type="submit" style=" width:200px;border-radius: 5px; color:ivory;">Cree</button>
-    </td></tr>
-<tr><td colspan="2"> <a href="#" >Créer une Page pour une célébrité</a>, un groupe ou une entreprise.</td></tr>
+                    <tr>
+                            <td>  First Name :</td>
+                             <td><input type="text" id="name1" placeholder="First Name" required> </td>  
 
-   </table>
+                     </tr>
+                     <tr>
+                                <td>  Last Name :</td>
+                                <td><input type="text" id="name2" placeholder="Last Name" required ></td>     
+                    </tr>
+                    <tr> 
+                                <td>Email :</td> 
+                                <td>  <input type="email" id="email" placeholder="Email" required></td>
+                     </tr> 
+                     <tr>
+                         
+                                <td>CIN :</td>
+                                <td><input type="text" id="cin" placeholder="CIN" required></td>
+                    </tr>
+                    <tr>
+                                <td>Numero Tel :</td>
+                                <td><input type=tel id="number" placeholder="Numero tel"></td>
+                    </tr>
+                    <tr>
+                                 <td>Date De Naissance :</td>
+                                 <td><input type="date" id="date"></td>
+                    </tr>
+     
+                    <tr>
+                                <td>Genre :</td>
+                                <td><input type="radio" id="radio1" name="radio">Femme 
+                                 <input type="radio" id="radio2"  name="radio">Homme
+                                </td>
+                    </tr>
+                     <tr>
+                                 <td colspan="2"  >
+                                                     <p>   En appuyant sur Inscription,<br> vous acceptez nos Conditions générales,<br>
+                                                            notre <em style="color: blue;">Politique d’utilisation des données et <br>notre Politique d’utilisation des cookies.</em><br> Vous recevrez peut-être des notifications
+                                                            par texto de notre<br> part et vous pouvez<br> à tout moment vous désabonner.
+                                                     </p>
+                                </td>
+                    </tr>
+    
+                    <tr>
+                                <td colspan="2" >
+                                             <button type="submit" >Cree</button>
+                                </td>
+                    </tr>
+                    <tr>
+                                <td colspan="2"> 
+                                            <a href="#" >Créer une Page pour une célébrité</a>, un groupe ou une entreprise.
+                                </td>
+                    </tr>
+
+        </table>
    
                 
            
   
         
     </form>
-        <script langage="javascript">
-                function f1()
-                    {
-                        var data = [
-                        {
-                            first_name:"jamal eddine",
-                            last_name:"noman",
-                            mail:"jamal@gmail.com",
-                            cin:"hh1111",
-                            date_naissons:"01/09/1997",
-                            genre:"homme",
-                            password:"1111"
-                        },
-                        {
-                            first_name:"ayoub",
-                            last_name:"el bouinany",
-                            mail:"ayoub@gmail.com",
-                            cin:"hh1111",
-                            date_naissons:"01/09/1997",
-                            genre:"homme",
-                            password:"1111"
-                        }
-                        ];
-                        var usern= document.getElementById("username").value;
-                        var pass= document.getElementById("password").value;
-                        for(var i=0;i<data.length;i++)
-                        {
-                            if(usern==data[i].mail && pass==data[i].password)
-                            {
-						        document.cookie = data[i].first_name;
-                                document.getElementById("f").submit();
-                            }
-                        }
-                    }
-            </script>
+    <script src="traitement.js"></script>
 </body>
 </html>

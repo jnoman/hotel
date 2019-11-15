@@ -45,10 +45,17 @@
 						</tr>
 					</table>
 
+<<<<<<< HEAD
 		    <div class="container-login-form-btn">
 						<div class="wrap-login-form-btn">
 							<div class="login-form-bgbtn"></div>
 							<button type="button" class="login-form-btn" id="btn1" onclick="f1">
+=======
+		    <div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button type="button" class="login100-form-btn" id="btn1">
+>>>>>>> e6268cfc066c4d32917c8d3f8c62d9f1c6d8d052
 								Login
 							</button>
 						</div>
@@ -68,41 +75,7 @@
 		</div>
 	</div>
 </form>
-	<script langage="javascript">
-		function f1()
-			{
-				var data = [
-        		{
-					first_name:"jamal eddine",
-					last_name:"noman",
-					mail:"jamal@gmail.com",
-					cin:"hh1111",
-					date_naissons:"01/09/1997",
-					genre:"homme",
-					password:"1111"
-				},
-				{
-					first_name:"ayoub",
-					last_name:"el bouinany",
-					mail:"ayoub@gmail.com",
-					cin:"hh1111",
-					date_naissons:"01/09/1997",
-					genre:"homme",
-					password:"1111"
-				}
-				];
-				var usern= document.getElementById("username").value;
-            	var pass= document.getElementById("password").value;
-                for(var i=0;i<data.length;i++)
-                {
-                    if(usern==data[i].mail && pass==data[i].password)
-                    {
-						document.cookie = data[i].first_name;
-						document.getElementById("f").submit();
-                    }
-                }
-			}
-	</script>
+	<script src="traitement.js"></script>
 	
 </body>
 </html>
