@@ -96,6 +96,7 @@
     </style>
 </head>
 <body>  
+<<<<<<< HEAD
         <form id="f" action="afficher_reservation.html">
                          <div id="divA">
         
@@ -168,48 +169,58 @@
                                             <a href="#" >Créer une Page pour une célébrité</a>, un groupe ou une entreprise.
                                 </td>
                     </tr>
+=======
+    <form id="f" action="afficher_reservation.html">
+        <div id="divA">
+            
+            <h2> <a href="accueil.html" >HOTEL</a> </h2>
+            <div>
+            <label>Adresse Email ou Mobile </label>
+                <input type="text"  id="username"> 
+            <label>  Mote de passe  </label>
+                <input type="password" id="password"> 
+                <input type="button" id="btn1" value="Connecter">
+            </div>
+        </div>
+    </form>
+    <form id="f1" >
+        <h1>
+        Inscription
+        </h1>
+           <h4 style="color: darkblue;">  C’est rapide et facile.</h4>
+        <table >
+                <tr>
+                    <td>  First Name :</td><td><input type="text" id="name1" placeholder="First Name" required> </td>  
+                    </tr>
+                    <tr>
+                    <td>  Last Name :</td><td><input type="text" id="name2" placeholder="Last Name" required ></td>     
+                </tr>
+                    <tr> <td>Email :</td> <td>  <input type="email" id="email" placeholder="Email" required></td>
+                    </tr> 
+                    <tr><td>CIN :</td><td><input type="text" id="cin" placeholder="CIN" required></td></tr>
+                    <tr><td>Numero Tel :</td><td><input type=tel id="number" placeholder="Numero tel"></td></tr>
+                    <tr><td>Date De Naissance :</td><td><input type="date" id="date"></td></tr>
+                    
+                    <tr><td>Genre :</td><td><input type="radio" id="radio1" name="radio">Femme  <input type="radio" id="radio2"  name="radio">Homme  <input type="radio" id="radio3"  name="radio">Personnalisé  </td></tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;" >
+                            <p>   En appuyant sur Inscription,<br> vous acceptez nos Conditions générales,<br>
+                                notre <em style="color: blue;">Politique d’utilisation des données et <br>notre Politique d’utilisation des cookies.</em><br> Vous recevrez peut-être des notifications
+                                par texto de notre<br> part et vous pouvez<br> à tout moment vous désabonner.</p>
+                        </td></tr>
+                    
+                    <tr><td colspan="2" > <button type="submit" style=" width:200px;border-radius: 5px; color:ivory;">Cree</button>
+                    </td></tr>
+                <tr><td colspan="2"> <a href="#" >Créer une Page pour une célébrité</a>, un groupe ou une entreprise.</td></tr>
+>>>>>>> 622e03dd372ee60ad26913065e024a49ae142038
 
-   </table>
+        </table>
    
                 
            
   
         
     </form>
-        <script langage="javascript">
-                function f1()
-                    {
-                        var data = [
-                        {
-                            first_name:"jamal eddine",
-                            last_name:"noman",
-                            mail:"jamal@gmail.com",
-                            cin:"hh1111",
-                            date_naissons:"01/09/1997",
-                            genre:"homme",
-                            password:"1111"
-                        },
-                        {
-                            first_name:"ayoub",
-                            last_name:"el bouinany",
-                            mail:"ayoub@gmail.com",
-                            cin:"hh1111",
-                            date_naissons:"01/09/1997",
-                            genre:"homme",
-                            password:"1111"
-                        }
-                        ];
-                        var usern= document.getElementById("username").value;
-                        var pass= document.getElementById("password").value;
-                        for(var i=0;i<data.length;i++)
-                        {
-                            if(usern==data[i].mail && pass==data[i].password)
-                            {
-						        document.cookie = data[i].first_name;
-                                document.getElementById("f").submit();
-                            }
-                        }
-                    }
-            </script>
+    <script src="traitement.js"></script>
 </body>
 </html>
