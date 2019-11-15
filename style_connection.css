@@ -25,7 +25,7 @@ div {
   
 }
 
-p {
+#P {
     font-family: verdana;
     font-style: initial;
     font-size: 15px;
@@ -36,9 +36,15 @@ p {
   #wel {
     font-family: fantasy;
     font-style: initial;
+    margin-left: 160PX;
     position: -ms-page;
     font-size: 15px;
     font-weight: 600;
     font-display: flex;
     background-position: center;
   }
+#btn1 {
+  font-family: fantasy;
+  font-style: initial;
+  margin-left: 160PX;
+}
