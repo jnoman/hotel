@@ -4,3 +4,27 @@ body{
     background-size: cover;
 
 }
+@keyframes animationfirst{
+    25%  {
+        color: rgb(255, 166, 0);
+    }
+    50% {
+        color: brown;
+    }
+       75% {
+        color: rgb(255, 60, 0);
+    }
+    100% {
+        color: rgb(250, 135, 154);
+    }
+}
+
+
+#cookies
+{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    size: 30px;
+    animation: animationfirst 5s 10;
+}

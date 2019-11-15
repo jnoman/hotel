@@ -10,8 +10,8 @@
 
 </head>
 
-<body>
-  
+<body onload="f1()">
+  <p id="cookies">welcome </p>
 	<div style="margin: auto; display: table;">
 	<br/>
 <div style="width: 400px;">
@@ -48,7 +48,13 @@
 </div>
 
 	
-	
+<script langage="javascript">
+	function f1()
+    {
+		var x=document.cookie;
+		document.getElementById("cookies").innerHTML+=x;
+	}
+</script>
 </body>
 
 
